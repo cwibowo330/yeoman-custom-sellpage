@@ -1,0 +1,104 @@
+{
+    "slides": [
+        {
+            "imageSrc": "jade_960.png",
+            "firstName": "Jade",
+            "lastInitial": "W.",
+            "age": "35",
+            "personal": "BRAND AMBASSADOR",
+            "results": "",
+			"start": "DAY 1",
+			"finish": "DAY 60",
+			"disclaimer": "Results vary depending on starting point, goals, and effort."
+        },
+        {
+            "imageSrc": "adiamond_960.png",
+            "firstName": "Adiamond",
+            "lastInitial": "B.",
+            "age": "28",
+            "personal": "MODEL/PRODUCTION ASSISTANT",
+            "results": "",
+			"start": "DAY 1",
+			"finish": "DAY 60",
+			"disclaimer":"Adiamond is a Beachbody Contractor. Results vary depending on starting point, goals, and effort."
+        },
+        {
+            "imageSrc": "roy_960.png",
+            "firstName": "Roy",
+            "lastInitial": "H.",
+            "age": "25",
+            "personal": "PRODUCT DEVELOPMENT",
+            "results": "LOST<br/><span class='number'>11</span>",
+			"start": "BEFORE",
+			"finish": "AFTER",
+			"disclaimer":"Roy is a Beachbody Employee. Results vary depending on starting point, goals, and effort. Results achieved after completing 2 rounds of The Master's Hammer and Chisel."
+        },
+        {
+            "imageSrc": "mitchell_960.png",
+            "firstName": "Jarrod",
+            "lastInitial": "M.",
+            "age": "31",
+            "personal": "LOG/COPY COORDINATOR",
+            "results": "LOST OVER<br/><span class='number'>15</span><br/><span class='units'>LBS.</span>",
+			"start": "DAY 1",
+			"finish": "DAY 60",
+			"disclaimer":"Results vary depending on starting point, goals, and effort."
+        },
+        {
+            "imageSrc": "james_960.png",
+            "firstName": "James",
+            "lastInitial": "J.",
+            "age": "25",
+            "personal": "WRITER/ACTOR",
+            "results": "",
+			"start": "DAY 1",
+			"finish": "DAY 60",
+			"disclaimer":"Results vary depending on starting point, goals, and effort."
+        },
+        {
+            "imageSrc": "elizabeth_960.png",
+            "firstName": "Elizabeth",
+            "lastInitial": "B.",
+            "age": "37",
+            "personal": "FITNESS INSTRUCTOR",
+            "results": "LOST<br/><span class='number'>11</span><br/><span class='units'>INCHES</span>",
+			"start": "DAY 1",
+			"finish": "DAY 60",
+			"disclaimer":"Results vary depending on starting point, goals, and effort."
+        },
+		{
+            "imageSrc": "jeff_960.png",
+            "firstName": "Jeff",
+            "lastInitial": "K.",
+            "age": "43",
+            "personal": "TV EXECUTIVE",
+            "results": "",
+			"start": "DAY 1",
+			"finish": "DAY 60",
+			"disclaimer":"Jeff is a Beachbody Contractor. Results vary depending on starting point, goals, and effort."
+        },
+		{
+            "imageSrc": "crispin_960.png",
+            "firstName": "Crispin",
+            "lastInitial": "N.",
+            "age": "42",
+            "personal": "PROJECT ENGINEER",
+            "results": "",
+			"start": "DAY 1",
+			"finish": "DAY 60",
+			"disclaimer":"Results vary depending on starting point, goals, and effort."
+        },
+		{
+            "imageSrc": "eric_960.png",
+            "firstName": "Eric",
+            "lastInitial": "B.",
+            "age": "41",
+            "personal": "MUSICIAN",
+            "results": "LOST<br/><span class='number'>10</span><br/><span class='units'>LBS</span>",
+			"start": "DAY 1",
+			"finish": "DAY 60",
+			"disclaimer":"Results vary depending on starting point, goals, and effort."
+        }
+    ]
+}
+

@@ -1,0 +1,369 @@
+@import "../../../../../../common/sassMixins/sassMixinsV2";
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+
+// Cloudinary Server Path adjusted
+$cloudinaryPath: "//img1.beachbodyimages.com/beachbody/image/upload/";
+
+// Colors
+$gold: #d3a600;
+$red: #b94518;
+$blue: #30697f;
+
+body {
+  background: #000;
+  -webkit-text-size-adjust: 100%; //iOS 6
+  overflow-x: hidden;
+}
+
+#contentBB {
+  background: #000;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%; //iOS 6
+
+  section {
+    width: 100%;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    font-weight: bold;
+    line-height: 1.4;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  sup {
+    font-size: 0.8em;
+    vertical-align: top;
+  }
+
+  hr {
+    width: 45px;
+    border: 0;
+    border-bottom: 3px solid $gold;
+
+    @include w568{
+      width: 60px;
+    }
+
+    &.left {
+
+      @include w960 {
+        width: 30px;
+        text-align: left;
+      }
+
+    }
+
+  }
+
+}
+
+.w375 {
+
+  @include w480 {
+    display: none;
+  }
+
+}
+
+.w667 {
+
+  @include w736 {
+    display: none;
+  }
+
+}
+
+.cta {
+  position: relative;
+  width: 100%;
+  margin: 5px auto 0;
+  text-align: center;
+
+  @include w360 {
+    width: 332px;
+  }
+
+  @include w568 {
+    width: 100%;
+  }
+
+  @include w960 {
+    width: 86%;
+    margin-top: 10px;
+  }
+
+  .cta-box {
+    width: 87%;
+    margin: 0 auto;
+
+    @include w360 {
+      width: 92%;
+    }
+
+    @include w568 {
+      width: 90%;
+    }
+
+    @include w667 {
+      width: 88%;
+    }
+
+    @include w768 {
+      width: 80%;
+    }
+
+    @include w960 {
+      width: 84%;
+    }
+
+    a {
+      display: block;
+      margin: 0 0 10px;
+
+      @include w568 {
+        width: 88%;
+      }
+
+    }
+
+    .cta-button {
+      display: block;
+      position: relative;
+      margin: 0 0 5px;
+
+      @include w480 {
+        margin-bottom: 10px;
+      }
+
+      &:before {
+        content: '';
+        display: block;
+        padding-top: 16%;
+
+        @include w640 {
+          padding-top: 14%;
+        }
+
+        @include w960 {
+          padding-top: 13.5%;
+        }
+
+      }
+
+      .cta-shape {
+        position: absolute;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#84230c+0,ad381d+25,c34427+50,ad381d+75,84230c+100 */
+        background: #84230c; /* Old browsers */
+        background: -moz-linear-gradient(left,  #84230c 0%, #ad381d 25%, #c34427 50%, #ad381d 75%, #84230c 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#84230c), color-stop(25%,#ad381d), color-stop(50%,#c34427), color-stop(75%,#ad381d), color-stop(100%,#84230c)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(left,  #84230c 0%,#ad381d 25%,#c34427 50%,#ad381d 75%,#84230c 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left,  #84230c 0%,#ad381d 25%,#c34427 50%,#ad381d 75%,#84230c 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left,  #84230c 0%,#ad381d 25%,#c34427 50%,#ad381d 75%,#84230c 100%); /* IE10+ */
+        background: linear-gradient(to right,  #84230c 0%,#ad381d 25%,#c34427 50%,#ad381d 75%,#84230c 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84230c', endColorstr='#84230c',GradientType=1 ); /* IE6-9 */
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -webkit-transform: skew(-30deg);
+        transform: skew(-30deg);
+        border: 2px solid $gold;
+
+        @include w960 {
+          border-width: 3px;
+        }
+
+      }
+
+      .cta-copy {
+        position: absolute;
+        top: 1px;
+        left: 18px;
+        font-size: 0.83em;
+        line-height: 1.25;
+        color: #fff;
+        font-style: italic;
+        text-transform: uppercase;
+        text-align: left;
+        text-shadow: 1px 1px 1px #333;
+
+        @include w360 {
+          font-size: 0.88em;
+        }
+
+        @include w375 {
+          top: 2px;
+        }
+
+        @include w480 {
+          top: 4px;
+          line-height: 1.1;
+        }
+
+        @include w568 {
+          top: 7px;
+          left: 25px;
+          font-size: 1.3em;
+        }
+
+        @include w640 {
+          top: 3px;
+          left: 30px;
+          font-size: 1.45em;
+        }
+
+        @include w667 {
+          font-size: 1.5em;
+        }
+
+        @include w736 {
+          font-size: 1.65em;
+        }
+
+        @include w768 {
+          font-size: 1.6em;
+        }
+
+        @include w960 {
+          top: 2px;
+          left: 40px;
+          font-size: 1.8em;
+        }
+
+        span {
+          display: inline-block;
+          vertical-align: middle;
+          font-weight: 400;
+
+          @include w568 {
+            font-weight: 700;
+          }
+
+          &.yes {
+            position: relative;
+            margin-right: 10px;
+            font-size: 2.6em;
+            font-weight: 700;
+
+            @include w480 {
+              margin-right: 15px;
+            }
+
+            @include w568 {
+              margin-right: 25px;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    small {
+      display: inline-block;
+      width: 84.7%;
+      margin: 0 5px 0 -10px;
+      font-size: 0.75em;
+      line-height: 1.2;
+      color: #fff;
+      text-align: left;
+      vertical-align: top;
+
+      @include w360 {
+        width: 77.7%;
+        margin-right: 15px;
+      }
+
+      @include w568 {
+        width: 100%;
+        margin: 0 auto;
+        line-height: 1.3;
+        text-align: center;
+      }
+
+      @include w667 {
+        font-size: 0.85em;
+      }
+
+      a {
+        color: #fff;
+        text-transform: uppercase;
+
+        @include w568 {
+          width: 100%;
+        }
+
+      }
+
+    }
+
+    .bbb {
+      display: inline-block;
+      width: 26px;
+
+      @include w375 {
+        width: 28px;
+      }
+
+      @include w568 {
+        position: absolute;
+        right: 12px;
+        bottom: 47px;
+        width: 46px;
+      }
+
+      @include w640 {
+        right: 20px;
+        bottom: 46px;
+      }
+
+      @include w667 {
+        right: 28px;
+        bottom: 55px;
+      }
+
+      @include w736 {
+        width: 50px;
+      }
+
+      @include w768 {
+        width: 48px;
+        right: 58px;
+      }
+
+      @include w960 {
+        width: 56px;
+        right: 56px;
+        bottom: 55px;
+      }
+
+    }
+
+  }
+
+}
+
+
+<% for(var i=0; i<projectSections.length; i++) {%>
+@import "<%= projectCode %>-<%= projectSections[i] %>"
+<% } %>
+
